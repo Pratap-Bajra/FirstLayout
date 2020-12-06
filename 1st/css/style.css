@@ -2,12 +2,18 @@ body{
     font-family: 'Segoe UI';
     background-color: #f2f2f2;
     margin:0px;
+    position: relative;
     
 }
 .topnav{
     display: flex;
     flex-flow: row;
     flex-wrap: wrap;
+    position:absolute;
+    top:0;
+    left:0;
+    height: 100px;
+    width:100px;
 }
 .left-nav h4,h3{
     font-weight:normal;
@@ -19,6 +25,12 @@ body{
     border-radius: 20%;
     cursor: pointer;
     border: 0px;
+    font-size: 30px;
+    height:30px;
+}
+nav span {
+    font-size: 30px;
+    height:30px;
 }
 nav{
     height: 10vh;
@@ -26,12 +38,17 @@ nav{
    display: flex;
    flex-wrap:wrap;
    justify-content: space-between;
+   align-items: center;
    box-shadow: 0px 2px 5px grey;
+
    
 }
+
 nav span input{
     width: 1000px;
-    height: 5vh;
+    height: 40px;
+    border-radius: 5px;
+    padding: 20px 0px 0px 30px ;
 }
 .left-nav{
     background-color: #5270fd;

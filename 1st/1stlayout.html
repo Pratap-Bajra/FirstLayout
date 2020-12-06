@@ -1,112 +1,117 @@
 <html>
-    <head>
-<link rel="stylesheet" href="css/style.css">
-    </head>
-    <body>
-        <!--upper navigation-->
-        <nav>
-            <img src="menu.jpg" width="25px" height="25px">
-            <span><input type="text" placeholder="Search..">
-                <button class="searchicon"><img src="search.png" width="25px" height="25px"></button>
-            </span>
-            <img src="message.png"width="25px" height="25px">
-            <img src="notication.png"width="25px" height="25px">
-            <img src="unknown.png"width="25px" height="25px">   
-        </nav>
-        <!--left navigation-->
-        <div class="left-nav" >
-            <h3 style="color: black;">S Maharjan</h3>
-            <h4>Home</h4>
-            <hr>
-            <h4>Order & Invoice</h4>
-            <hr>
-            <h4>Manage Users</h4>
-            <hr>
-            <h4>Sales</h4>
-            <hr>
-            <h4>Products</h4>
-            <hr>
-            <h4>Messages</h4>
-            <hr>
-            <h4>Settings</h4>
-            <hr>
-            <h4>History</h4>
-            <hr>
-            <h4>Support</h4>
 
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/64805b7a36.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!--upper navigation-->
+    <nav>
+        <span>
+            <i class="fas fa-bars"></i></span>
+        <span><input type="text" placeholder="Search..">
+            <button class="searchicon"><i class="fas fa-search"></i></button>
+        </span>
+        <span><i class="far fa-envelope"></i></span>
+        <span><i class="far fa-bell"></i></span>
+        <span><i class="far fa-user-circle"></i></span>
+    </nav>
+    <!--left navigation-->
+    <div class="left-nav">
+        <h3 style="color: black;">S Maharjan</h3>
+        <h4>Home</h4>
+        <hr>
+        <h4>Order & Invoice</h4>
+        <hr>
+        <h4>Manage Users</h4>
+        <hr>
+        <h4>Sales</h4>
+        <hr>
+        <h4>Products</h4>
+        <hr>
+        <h4>Messages</h4>
+        <hr>
+        <h4>Settings</h4>
+        <hr>
+        <h4>History</h4>
+        <hr>
+        <h4>Support</h4>
+
+    </div>
+    <!-- main info -->
+    <div class="main">
+        <!-- main panel for the sizing of the screen when side navigation is active -->
+        <div class="listing-panel">
+            <!-- listing of the items -->
+            <span class="list"><img src="template.png">
+                <p>new order</p>
+                <div class="notification">1</div>
+            </span>
+            <span class="list"><img src="template.png">
+                <p>pending</p>
+                <div class="notification">1</div>
+            </span>
+            <span class="list"><img src="template.png">
+                <p>processing</p>
+                <div class="notification">1</div>
+            </span>
+            <span class="list"><img src="template.png">
+                <p>delivered</p>
+                <div class="notification">1</div>
+            </span>
+            <span class="list"><img src="template.png">
+                <p>cancelled</p>
+                <div class="notification">1</div>
+            </span>
         </div>
-        <!-- main info -->
-        <div class="main">
-            <!-- main panel for the sizing of the screen when side navigation is active -->
-            <div class="listing-panel" >
-                <!-- listing of the items -->
-                <span class="list"><img src="template.png">
-                    <p>new order</p>
-                    <div class="notification">1</div>
-                </span>
-                <span class="list"><img src="template.png">
-                    <p>pending</p>
-                    <div class="notification">1</div>
-                </span>
-                <span class="list"><img src="template.png">
-                    <p>processing</p>
-                    <div class="notification">1</div>
-                </span>
-                <span class="list"><img src="template.png">
-                    <p>delivered</p>
-                    <div class="notification">1</div>
-                </span>
-                <span class="list"><img src="template.png">
-                    <p>cancelled</p>
-                    <div class="notification">1</div>
-                </span>
-            </div>
-            <table id="details" cellspacing="5px">
-                <!-- Details of persons -->
-                <tr>
-                    <th>id</th>
-                    <th>username</th>
-                    <th>address</th>
-                    <th>billing</th>
-                    <th>remarks</th>
-                </tr>
-                <tr>
-                    <td>005</td>
-                    <td>S maharjan</td>
-                    <td>Thankot</td>
-                    <td>Billing Amount Here</td>
-                    <td><span class="unpaid">unpaid</span></td>
-                </tr>
-                <tr>
-                    <td>005</td>
-                    <td>S maharjan</td>
-                    <td>Thankot</td>
-                    <td>Billing Amount Here</td>
-                    <td><span class="unpaid">unpaid</span></td>
-                </tr>
-                <tr>
-                    <td>005</td>
-                    <td>S maharjan</td>
-                    <td>Thankot</td>
-                    <td>Billing Amount Here</td>
-                    <td><span class="unpaid">unpaid</span></td>
-                </tr>
-                <tr>
-                    <td>005</td>
-                    <td>S maharjan</td>
-                    <td>Thankot</td>
-                    <td>Billing Amount Here</td>
-                    <td><span class="unpaid">unpaid</span></td>
-                </tr>
-                <tr>
-                    <td>005</td>
-                    <td>S maharjan</td>
-                    <td>Thankot</td>
-                    <td>Billing Amount Here</td>
-                    <td><span class="unpaid">unpaid</span></td>
-                </tr>
-                
-         
-        
-    </body>
+        <table id="details" cellspacing="5px">
+            <!-- Details of persons -->
+            <tr>
+                <th>id</th>
+                <th>username</th>
+                <th>address</th>
+                <th>billing</th>
+                <th>remarks</th>
+            </tr>
+            <tr>
+                <td>005</td>
+                <td>S maharjan</td>
+                <td>Thankot</td>
+                <td>Billing Amount Here</td>
+                <td><span class="unpaid">unpaid</span></td>
+            </tr>
+            <tr>
+                <td>005</td>
+                <td>S maharjan</td>
+                <td>Thankot</td>
+                <td>Billing Amount Here</td>
+                <td><span class="unpaid">unpaid</span></td>
+            </tr>
+            <tr>
+                <td>005</td>
+                <td>S maharjan</td>
+                <td>Thankot</td>
+                <td>Billing Amount Here</td>
+                <td><span class="unpaid">unpaid</span></td>
+            </tr>
+            <tr>
+                <td>005</td>
+                <td>S maharjan</td>
+                <td>Thankot</td>
+                <td>Billing Amount Here</td>
+                <td><span class="unpaid">unpaid</span></td>
+            </tr>
+            <tr>
+                <td>005</td>
+                <td>S maharjan</td>
+                <td>Thankot</td>
+                <td>Billing Amount Here</td>
+                <td><span class="unpaid">unpaid</span></td>
+            </tr>
+
+
+
+</body>
+
 </html>
